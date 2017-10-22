@@ -5,6 +5,8 @@
 <title>Тестовые задачи</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+<link href="mycss.css" rel="stylesheet">
 <style type="text/css">
 .image img{
 	width :170px;
@@ -14,6 +16,31 @@
 
 </head>
 <body>
+<div class="slideshow-container">
+	<div class="mySlides fade">
+		<div class="numbertest">1/3</div>
+		<img src="image/1.JPG" alt="" style="width:100%;">
+		<div class="test">a way</div>
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertest">2/3</div>
+		<img src="image/2.JPG" alt="" style="width:100%;">
+		<div class="test">a dance</div>
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertest">3/3</div>
+		<img src="image/3.JPG" alt="" style="width:100%;">
+		<div class="test">The girl</div>
+	</div>	
+	<a onclick="plusSlides(-1)" class="prev">&#10094 </a>
+	<a onclick="plusSlides(1)" class="next">&#10095 </a>
+	<div style="text-align: center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	<script src="script.js"></script>
+</div>
 
 <a href="mysql.php">mysql</a><br><br>
 <a href="archive.php">скачивание файлa archive</a><br>
